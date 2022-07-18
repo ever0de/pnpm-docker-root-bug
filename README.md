@@ -6,6 +6,11 @@
 2. use `--filter` options
 3. Run command in top-level directory in docker
 
+### How to fix?
+
+Add `WORKDIR` & Do not use it as root
+`WORKDIR workspace`
+
 ### Command
 
 `docker build .`
