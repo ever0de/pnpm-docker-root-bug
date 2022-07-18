@@ -1,0 +1,13 @@
+{
+  "name": "onflow",
+  "version": "1.0.0",
+  "author": "Jiseok CHOI <jiseok.dev@gmail.com>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

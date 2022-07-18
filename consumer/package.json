@@ -1,0 +1,13 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "author": "Jiseok CHOI <jiseok.dev@gmail.com>",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "onflow": "workspace:*"
+  },
+  "devDependencies": {}
+}
