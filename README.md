@@ -51,3 +51,12 @@ Add `WORKDIR` & Do not use it as root
 ------
 executor failed running [/bin/sh -c pnpm install]: exit code: 1
 ```
+
+### error backtrace
+
+Bottomup
+
+1. <https://github.com/micromatch/picomatch/blob/56083efda08c68b5123ba29c55a9f22e0d830b51/lib/picomatch.js#L47-L50>
+   - catch `glob === ''`
+2. <https://github.com/micromatch/micromatch/blob/master/index.js#L123>
+3. <https://github.com/pnpm/pnpm/blob/597047fc056dd25b83638a9ab3df0df1c555ee49/packages/filter-workspace-packages/src/index.ts#L295-L297>
