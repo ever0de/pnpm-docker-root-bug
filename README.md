@@ -1,5 +1,7 @@
 # PNPM with docker
 
+<https://github.com/pnpm/pnpm/issues/5051>
+
 ## development environment
 
 1. use `pnpm` & `workspace`
